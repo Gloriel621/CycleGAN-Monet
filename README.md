@@ -1,3 +1,6 @@
 # CycleGAN-Monet
-I am Something of a Painter Myself-Kaggle competition code of pytorch version
+I'm Something of a Painter Myself - Kaggle competition
 https://www.kaggle.com/competitions/gan-getting-started
+
+Implementation of CycleGAN in Pytorch
+
