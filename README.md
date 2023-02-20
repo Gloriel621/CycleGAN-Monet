@@ -16,6 +16,10 @@ Generation examples :
 
 ![alt text](https://github.com/Gloriel621/CycleGAN-Monet/blob/main/generation_samples/sample2.png)
 
+![alt text](https://github.com/Gloriel621/CycleGAN-Monet/blob/main/generation_samples/sample3.png)
+
+![alt text](https://github.com/Gloriel621/CycleGAN-Monet/blob/main/generation_samples/sample4.png)
+
 
 
 
