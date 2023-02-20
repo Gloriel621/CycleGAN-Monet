@@ -10,5 +10,12 @@ You can use the dataset in Kaggle competition page
 
 or download at https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/monet2photo.zip
 
+Generation examples : 
+
+![alt text](https://github.com/Gloriel621/CycleGAN-Monet/blob/main/generation_samples/sample1.png)
+
+![alt text](https://github.com/Gloriel621/CycleGAN-Monet/blob/main/generation_samples/sample2.png)
+
+
 
 
