@@ -154,5 +154,5 @@ class CycleGAN_Trainer:
                 if (loss_G) < self.best_loss:
                     print("Generator loss decreased from {:.4f} to {:.4f}. Saving model...".format(self.best_loss, (loss_G)))
                     torch.save(self.G_AB.state_dict(), self.save_path + '/cyclegan-best-weight-fake-monet.pth')
-                    torch.save(self.G_AB.state_dict(), self.save_path + '/cyclegan-best-weight-real-picture.pth')
+                    torch.save(self.G_BA.state_dict(), self.save_path + '/cyclegan-best-weight-real-picture.pth')
                     self.best_loss = loss_G
