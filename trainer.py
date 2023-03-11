@@ -7,7 +7,6 @@ from torch.utils.data import DataLoader
 from torchvision.utils import save_image
 import itertools
 
-from dataset import ImageDataset
 from models import Generator, Discriminator
 from utils import cycle_consistency_loss, identity_loss, adversarial_loss
 

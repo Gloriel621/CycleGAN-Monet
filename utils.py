@@ -1,12 +1,5 @@
 import torch
 
-# def cycle_consistency_loss(real_images, generated_images, lambda_weight):
-#     """Calculate cycle consistency loss for the generator"""
-#     forward_loss = torch.mean(torch.abs(real_images - generated_images))
-#     backward_loss = torch.mean(torch.abs(generated_images - real_images))
-#     cycle_consistency_loss = lambda_weight * (forward_loss + backward_loss)
-#     return cycle_consistency_loss
-
 def cycle_consistency_loss(reconstructed, original, criterion, lambda_weight):
     """
     Computes the cycle-consistency loss between the original and reconstructed images.
